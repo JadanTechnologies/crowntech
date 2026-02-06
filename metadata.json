@@ -1,0 +1,7 @@
+{
+  "name": "CROWNTECH GLOBAL INVESTMENT Website",
+  "description": "A professional business website for CROWNTECH GLOBAL INVESTMENT NIG. LTD, a technology solutions provider in Sokoto, Nigeria. Features service listings, contact forms, and mobile-responsive design.",
+  "requestFramePermissions": [
+    "geolocation"
+  ]
+}
