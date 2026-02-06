@@ -50,49 +50,57 @@ export const SERVICES: Service[] = [
     id: 'repairs',
     title: 'Computer Maintenance & Repairs',
     description: 'Expert diagnostics and professional repair for all kinds of devices, including laptops, desktops, and peripherals. We handle hardware failures, screen replacements, and internal cleaning.',
-    iconName: 'Wrench'
+    iconName: 'Wrench',
+    features: ['Motherboard Repair', 'Screen & Keyboard Replacement', 'Thermal Pasting & Cleaning', 'Data Recovery', 'Hardware Upgrades (RAM/SSD)']
   },
   {
     id: 'installations',
     title: 'Computer Installations',
     description: 'Complete setup of computer systems, local area networks (LAN), and specialized workstations tailored for corporate offices and personal home setups.',
-    iconName: 'Monitor'
+    iconName: 'Monitor',
+    features: ['Office Network Setup', 'Printer Configuration', 'Server Installation', 'Workstation Assembly', 'OS Deployment']
   },
   {
     id: 'commerce',
     title: 'Buying & Selling of Computers',
     description: 'Your trusted hub for high-quality new and refurbished laptops, desktops, and tech accessories. We offer warranties and authentic parts.',
-    iconName: 'ShoppingBag'
+    iconName: 'ShoppingBag',
+    features: ['Certified Refurbished Laptops', 'Brand New Desktops', 'Original Accessories', 'Trade-in Options', 'Post-purchase Support']
   },
   {
     id: 'software',
     title: 'Professional Software Installation',
     description: 'Expert configuration of business management software including Tally Prime, Aronium POS, Prokip, QuickBooks, and various accounting suites.',
-    iconName: 'Settings'
+    iconName: 'Settings',
+    features: ['Tally Prime ERP', 'Aronium POS Systems', 'QuickBooks Accounting', 'Cloud Backup Integration', 'User Training & Support']
   },
   {
     id: 'cctv',
     title: 'CCTV Installation & Security',
     description: 'Modern surveillance solutions for residential and commercial properties. Remote viewing setup on mobile devices for 24/7 peace of mind.',
-    iconName: 'ShieldCheck'
+    iconName: 'ShieldCheck',
+    features: ['IP & Analog Camera Setup', 'NVR/DVR Configuration', 'Mobile Remote Monitoring', 'Motion Detection Alerts', 'Night Vision Systems']
   },
   {
     id: 'starlink',
     title: 'Starlink Installation',
     description: 'Professional installation and configuration of SpaceX Starlink satellite internet for lightning-fast connectivity anywhere in Sokoto.',
-    iconName: 'Wifi'
+    iconName: 'Wifi',
+    features: ['Satellite Dish Mounting', 'Router Optimization', 'Mesh Network Expansion', 'Performance Testing', 'Firmware Updates']
   },
   {
     id: 'dev',
     title: 'Software Development',
     description: 'Custom software solutions and web applications designed to solve specific business problems and enhance operational efficiency.',
-    iconName: 'Code'
+    iconName: 'Code',
+    features: ['Custom Web Applications', 'Business Automation Tools', 'Inventory Management Systems', 'Database Design', 'API Integrations']
   },
   {
     id: 'training',
     title: 'Computer Training Centre',
     description: 'Industry-standard training modules covering basic digital literacy, advanced office productivity, and specialized IT professional courses.',
-    iconName: 'GraduationCap'
+    iconName: 'GraduationCap',
+    features: ['Basic Computer Literacy', 'Advanced Excel & Office Suite', 'Graphics Design Basics', 'Software Engineering Intro', 'Certification Prep']
   }
 ];
 
